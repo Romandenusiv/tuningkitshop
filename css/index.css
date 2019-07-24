@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap');
+
+:root {
+    --main-color: black;
+    --accent-color: grey;
+}
+
+body {
+    max width: 980;
+    margin: auto;
+}
+
+header .logo {
+    font-family: font-family: 'Londrina Shadow', cursive;
+    font-size: 3rem;
+    text-align: flex-start;
+    margin: 0;
+}
+
+header .menu {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     padding: 0;
+}
+
+header .menu a {
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+header .menu a:hover {
+    border: 1px solid var(--accent-color);
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+header .menu {
+    flex: 1;
+}
