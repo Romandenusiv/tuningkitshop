@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow|Saira+Stencil+One&display=swap');
 
 :root {
     --main-color: black;
@@ -44,4 +44,35 @@ header .menu a:hover {
 
 header .menu {
     flex: 1;
+}
+
+header .linkssign {
+    display: flex;
+    justify-content: flex-end;
+    font-family:
+}
+
+
+main .maintitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 4rem;
+    margin: 0;
+}
+
+main .carbrands {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 2rem;
+    margin: 0;
+}
+
+main .titleforkits {
+    display: flex;
+    justify-content: center;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 2rem;
+    margin: 0;
 }
