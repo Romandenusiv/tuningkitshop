@@ -7,6 +7,7 @@
     <title>Tuningkitshop</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <header class="container">
@@ -88,7 +89,7 @@
         <section>
             <h1 class="maintitle">Select your car</h1>
            <div class="row carbrands">
-            <div>
+            <div class="amg">
                 <h2>Mercedes</h2>
                     <img src="image/mersedeslogo.jpg" class="mercedeslogo"  alt="mercedeslogo">
                 <select id="menumercedes" name="mercedes">
@@ -158,9 +159,9 @@
            <div class="card-body">
             <h5 class="card-title">Cheap-kit</h5>
                 <p class="card-text">About Cheap-kit
-                    A stage 1 modification can be added in isolation. This means that a true stage 1 modification part does not require any other engine modifications to get it to work. Whilst other mods can help to raise the power gains and realize the full potential of the mod they are not mandatory. These are at the bottom end of the tuning scene in terms of the overall benefits you will get.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p>View more: <span class="show-text"></span></p>
+                <button id="kit-button" class="btn btn-primary">Next</button>
             </div>
           </div>
          </div>
@@ -168,7 +169,7 @@
     </main>
     <footer class="container">
       <div class="row contacts">
-        <div>
+        <div class="social">
             <h2>We are in social networks!</h2>
             <img src="image/facebook.jpg" alt="No face" width="50" height="50"/>
             <a href="https://www.facebook.com">https://www.facebook.com</a>
@@ -223,6 +224,7 @@
             </form>
         </div>
       </div>
+
     </footer>
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
