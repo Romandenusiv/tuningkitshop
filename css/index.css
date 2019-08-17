@@ -106,8 +106,12 @@ main .products {
     justify-content: space-between;
 }
 
-footer .socialnetworktitle {
+footer .order {
     display: flex;
-    justify-content: center;
-    font-family:'Saira Stencil One', cursive;
+    justify-content: flex-start;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
 }
