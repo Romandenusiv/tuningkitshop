@@ -1,3 +1,13 @@
+document.querySelector('#cheap-kit').addEventListener('click', cheapKit);
+
+async function cheapKit () {
+    const response = await fetch('cheapkit.html');
+    const html = await response.text();
+    document.querySelector ('.cheap-kit').innerHTML = html;
+
+}
+
+
 document.querySelector('#custom-kit').addEventListener('click', customKit);
 
 async function customKit () {

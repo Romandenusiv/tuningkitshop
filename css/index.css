@@ -121,6 +121,11 @@ main .products {
     justify-content: space-between;
 }
 
+main .audirs {
+    height: 170px;
+    width: 270px;
+}
+
 footer {
     margin: 100px;
 }
