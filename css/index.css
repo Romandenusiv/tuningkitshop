@@ -124,6 +124,8 @@ main .products {
 main .audirs {
     height: 170px;
     width: 270px;
+    max width: 980;
+    margin: auto;
 }
 
 footer {
@@ -175,3 +177,25 @@ footer .order {
 
 }
 
+footer .email {
+    margin: 15px;
+}
+
+.country {
+   margin: 15px;
+}
+
+.model {
+    margin: 15px;
+}
+
+.orderr {
+    display: flex;
+    justify-content: center;
+}
+
+footer .check {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
