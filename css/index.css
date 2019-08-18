@@ -90,6 +90,16 @@ main .amg {
     flex-direction: column;
 }
 
+main .rsavant {
+    display: flex;
+    flex-direction: column;
+}
+
+main .msport {
+    display: flex;
+    flex-direction: column;
+}
+
 main .audilogo {
    display: flex;
    justify-content: center;
@@ -126,6 +136,33 @@ footer .order {
     display: flex;
     justify-content: space-around;
 }
+
+.socialtitle {
+   font-family: 'Saira Stencil One', cursive;
+}
+
+.ordertitle {
+    font-family: 'Saira Stencil One', cursive;
+}
+
+.face {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.inst {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.twit {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
 
 .social {
     border: 1px solid;

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Shadow|Saira+Stencil+One&display=swap');
+
+
+
+main .service {
+   height: 100px;
+   width: 200px;
+   margin: 5px;
+   border-radius: 8px;
+}
+
+main .motor {
+   height: 100px;
+   width: 200px;
+   margin: 5px;
+   border-radius: 8px;
+}
+
+main .lance {
+   height: 150px;
+   width: 200px;
+   margin: 5px;
+   border-radius: 8px;
+}

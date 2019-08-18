@@ -12,32 +12,32 @@
 <body>
     <header class="container">
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h3><a class="navbar-brand" href="#">Tuning kit shop</a></h3>
+        <h3><a class="navbar-brand" href="index.html">Tuning kit shop</a></h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="news.html">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Movies</a>
+                <a class="nav-link" href="movies.html">Movies</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tutorial</a>
+                <a class="nav-link" href="tutorial.html">Tutorial</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Audi
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Kits</a>
+                <a class="dropdown-item" href="#">Details</a>
+                <a class="dropdown-item" href="movies.html">Movie</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -45,9 +45,9 @@
                 BMW
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Kits</a>
+                <a class="dropdown-item" href="#">Details</a>
+                <a class="dropdown-item" href="movies.html">Movie</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -55,9 +55,9 @@
                 Mercedes
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Kits</a>
+                <a class="dropdown-item" href="#">Details</a>
+                <a class="dropdown-item" href="movies.html">Movie</a>
                 </div>
             </li>
             </ul>
@@ -93,7 +93,7 @@
                 <h2>Mercedes</h2>
                     <img src="image/mersedeslogo.jpg" class="mercedeslogo"  alt="mercedeslogo">
                 <select id="menumercedes" name="mercedes">
-                    <option>Model</option>
+                    <option>MERCEDES</option>
                     <option>Details</option>
                     <option>Chiptuning</option>
                     <option>Exhaust(pipe)</option>
@@ -103,11 +103,11 @@
                     <option>Bulbs</option>
                     </select>
                 </div>
-                <div>
+                <div class="rsavant">
                     <h2>Audi</h2>
                 <img src="image/audilogo.jpg" class="audilogo"  alt="audilogo">
                     <select id="menuaudi" name="menuaudi">
-                        <option>Model</option>
+                        <option>AUDI</option>
                         <option>Details</option>
                         <option>Chiptuning</option>
                         <option>Exhaust(pipe)</option>
@@ -117,11 +117,11 @@
                         <option>Bulbs</option>
                     </select>
                 </div>
-                <div>
+                <div class="msport">
                     <h2>BMW</h2>
                 <img src="image/bmwlogo.jpg" class="bmwlogo"  alt="bmwlogo">
                     <select id="menubmw" name="menubmw">
-                        <option>Model</option>
+                        <option>BMW</option>
                         <option>Details</option>
                         <option>Chiptuning</option>
                         <option>Exhaust(pipe)</option>
@@ -170,14 +170,14 @@
     <footer class="container">
       <div class="row contacts">
         <div class="social">
-            <h2>We are in social networks!</h2>
-            <img src="image/facebook.jpg" alt="No face" width="50" height="50"/>
+            <h2 class="socialtitle">We are in social networks!</h2>
+            <img class ="face" src="image/facebook.png" alt="No face"/>
             <a href="https://www.facebook.com">https://www.facebook.com</a>
             <br>
-            <img src="image/inst.png" alt="No ist" width="50" height="50"/>
+            <img class="inst" src="image/inst.png" alt="No ist"/>
             <a href="https://www.instagram.com">https://www.instagram.com</a>
             <br>
-            <img src="image/twit.png" alt="No twit" width="50" height="50"/>
+            <img class="twit" src="image/twit.png" alt="No twit"/>
             <a href="https://twitter.com">https://twitter.com</a>
             <br>
             <h3>Email:romanfedusiv@gmail</h3>
@@ -185,7 +185,7 @@
         </div>
         <div class="order">
             <form>
-             <h1>Get order!</h1>
+             <h1 class="ordertitle">Get order!</h1>
             <input type="text" placeholder="Email"/>
             <input type="tel" placeholder="Phone"/>
             <br>
