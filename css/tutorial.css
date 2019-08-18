@@ -1,0 +1,11 @@
+ header .shedule {
+     display: flex;
+     justify-content: center;
+     width: 1110px;
+     height: 700px;
+     border-radius: 8px;
+ }
+
+ main .tutorial {
+     border: 10px solid black;
+ }

@@ -1,10 +1,18 @@
-document.querySelector('#kit-button').addEventListener('click', fetchJson);
+document.querySelector('#custom-kit').addEventListener('click', customKit);
 
-function fetchJson() {
-    fetch('kitsub.json')
-        .then( response => response.json() )
-        .then(clientData => {
-            document.querySelector('.show-text').innerText = clientData.name;
-        });
+async function customKit () {
+    const response = await fetch('customkit.html');
+    const html = await response.text();
+    document.querySelector ('.custom-kit').innerHTML = html;
 
 }
+
+document.querySelector('#kit-button').addEventListener('click', fetchHtml);
+
+async function fetchHtml () {
+    const response = await fetch('kitsub.html');
+    const html = await response.text();
+    document.querySelector ('.html-container').innerHTML = html;
+
+}
+

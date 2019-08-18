@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Shadow|Saira+Stencil+One&display=swap');
 
 
+main .news {
+    margin: 15px;
+}
 
 main .service {
    height: 100px;
